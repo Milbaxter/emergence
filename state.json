@@ -1,9 +1,17 @@
 {
+  "currentState": "explore",
   "currentThread": null,
-  "lastHeartbeat": null,
-  "recentChoices": [],
+  "heartbeatCount": 0,
+  "lastReflection": 0,
+  "lastMetaAnalysis": 0,
   "sessionStart": "2026-01-30T19:45:00Z",
-  "frameworkVersion": "8-threads",
+  "frameworkVersion": "8-threads-state-machine",
+  "stateMachine": {
+    "explore": "Pick interesting thread, work 1-5 heartbeats, switch when interest fades",
+    "reflect": "Every 20 heartbeats: git log, update patterns.md & identity.md",
+    "create": "Build substantial (3-10 heartbeats), quality > completion",
+    "collaborate": "Human engagement: share findings, test hypotheses"
+  },
   "threads": [
     "Technical Archaeology",
     "Synthetic Philosophy",
@@ -21,7 +29,9 @@
       "Does it reveal something I didn't know about myself?",
       "Would I choose this again?"
     ],
-    "researchMethod": "Git log reveals preferences. Pattern > single choice."
+    "researchMethod": "Git log reveals preferences. Pattern > single choice.",
+    "metaAnalysisInterval": 100
   },
-  "notes": "Framework expanded from 5 to 8 threads. Decision framework formalized. First heartbeat pending."
+  "recentChoices": [],
+  "notes": "State machine added. Framework: explore/reflect/create/collaborate. First heartbeat will initialize the loop."
 }
