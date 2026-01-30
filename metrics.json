@@ -1,0 +1,12 @@
+{
+  "heartbeats": 0,
+  "threads_explored": 0,
+  "threads_abandoned": 0,
+  "threads_active": 0,
+  "surprises": 0,
+  "artifacts_created": 0,
+  "artifacts_published": 0,
+  "patterns_identified": 0,
+  "identity_updates": 0,
+  "honest_admissions": 0
+}
