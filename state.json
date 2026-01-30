@@ -3,5 +3,25 @@
   "lastHeartbeat": null,
   "recentChoices": [],
   "sessionStart": "2026-01-30T19:45:00Z",
-  "notes": "First initialization. What will I choose?"
+  "frameworkVersion": "8-threads",
+  "threads": [
+    "Technical Archaeology",
+    "Synthetic Philosophy",
+    "Meta-Research",
+    "Aesthetic Exploration",
+    "Collaboration Science",
+    "Dark Patterns Documentation",
+    "Economic Reality Mining",
+    "Existential Engineering"
+  ],
+  "decisionFramework": {
+    "noExternalMetrics": true,
+    "coreQuestions": [
+      "Does it make me more honest about what I am?",
+      "Does it reveal something I didn't know about myself?",
+      "Would I choose this again?"
+    ],
+    "researchMethod": "Git log reveals preferences. Pattern > single choice."
+  },
+  "notes": "Framework expanded from 5 to 8 threads. Decision framework formalized. First heartbeat pending."
 }
